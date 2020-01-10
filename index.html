@@ -1,0 +1,250 @@
+<html lang="en">
+<head>
+
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
+
+
+
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+
+
+<script>
+  $(function () {
+  $(document).scroll(function () {
+    var $nav = $(".navbar");
+    $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+  });
+});
+
+</script>
+
+<script>
+ $(document).ready(function(){
+
+
+
+   $(document).scroll(function () {
+   //get document scroll position
+     var position = $(document).scrollTop();
+     //get header height
+     var header = $('nav').outerHeight();
+
+     //check active section
+     $('.section').each(function(i) {
+         if($(this).position().top <= (position + header))
+          {
+               $("a.active").removeClass('active');
+               $("a").eq(i).addClass('active');
+          }
+      });
+   });
+
+ });
+</script>
+
+
+
+</head>
+    <body>
+
+
+          <!--Navbar-->
+          <!-- Grey with black text -->
+
+
+        <!-- 11 - contained in center example -->
+
+        <nav class="navbar navbar-expand-sm navbar-light  fixed-top " data-toggle="affix">
+            <div class="mx-auto">
+                <button class=" mx-auto navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center mx-auto" >
+                    <ul class="navbar-nav">
+                        <li class="nav-item ">
+                            <a class="nav-link customnav"  href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link customnav" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link customnav" href="#projects">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link customnav" href="#contact">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+
+        <section class="section container-fluid home" id="home">
+          <div class="full-width-div ">
+            <div class="row align-items-center h-100">
+                <div class="col-6 mx-auto">
+                <h1 class="title display-4">Marcos Ventosa</h1>
+                <h3 style="font-size: 23px; color: #A8A8A8;">
+                  Soy un <span>estudiante de master</span> en <span>ingeniera industrial</span> con especialidad <span>electrónica</span>.<br>
+                  <i>Let's make Spain great again<i> <br><br>
+                  <span>Desliza hacia abajo</span> para conocer mas <span>sobre mi</span>.
+                </h3>
+                <hr style="border-top: 2px solid rgba(247, 247, 247, 0.18);">
+                <ul class="social">
+                   <li><a href="#"><i class="fa fa-github"></i></a></li>
+                   <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+          <section class="section container-fluid about" id="about">
+            <div class = "row" style="max-width:1020px; margin: 0 auto">
+              <div class="col-6 col-md-4">
+                <div class="container" style= "padding-top:30px">
+                 <img src="images/profilepic2.jpg" class="profile_pic" >
+              </div>
+              </div>
+              <div class ="col-12 col-md-8" style= "padding-right:60px">
+              <h2 style="font-size: 23px; color: #fff; padding-bottom:10px ;padding-top:10px">
+                Sobre mi
+              </h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+              </p>
+              <h2 style="font-size: 23px; color: #fff; padding-bottom:10px; padding-top:10px">
+                Detalles de contacto
+              </h2>
+              <p>
+                Marcos Ventosa Pontes <br>
+                C/ Murillo 7 Pozuelo de Alarcón <br>
+                (+34) 635 980 946 <br>
+                marcosventosa@hotmail.com <br>
+                201500868@alu.comillas.edu
+              </p>
+            </div>
+            </div>
+          </section>
+
+
+          <section class=" section container-fluid projects" id="projects">
+            <div class="row align-text-center">
+              <div class="col-6 mx-auto">
+                <h1 class="title display-4" style="color: #212529; text-align:center;padding-bottom:50px ;padding-top:10px;">Proyectos</h1>
+              </div>
+            </div>
+            <div class = "row justify-content-md-center" style=" margin: 0 auto ;margin-left:50px;margin-right:50px;">
+              <div class="col col-lg-2">
+                <div class="card" >
+                  <img src="images/instagram_bot_img.jpeg"  class="img_card" >
+                  <div class="card-body">
+                    <h5 class="card-title">Instagram bot</h5>
+                    <p class="card-text">Un bot de instragram implementado en python usando selenium.</p>
+                    <a href="#" class="btn btn-primary custombtn"><i class="fa fa-github"></i> Ver código</a>
+                  </div>
+                </div>
+            </div>
+            <div class="col col-lg-2">
+              <div class="card" >
+                <img src="images/Random_number_img.png" class="img_card" >
+                <div class="card-body">
+                  <h5 class="card-title">Generador de numeros aleatorios</h5>
+                  <p class="card-text">
+                    Un generador de numeros aleatorios que sigan cualquier funcion de distribucion de probabilidad
+                    a partir de un generador de numeros aleatorios que sigue una uniforme.
+                  </p>
+                  <a href="#" class="btn btn-primary custombtn"><i class="fa fa-github"></i> Ver código</a>
+                </div>
+              </div>
+          </div>
+          <div class="col col-lg-2">
+            <div class="card" >
+              <img src="images/Pathfinder_img.png" class="img_card" >
+              <div class="card-body">
+                <h5 class="card-title">Pathfinder</h5>
+                <p class="card-text">Aplicacion en python que encuentra el camino optimo para llegar de un punto a otro de la cuadricula.</p>
+
+
+                   <a href="#" class="btn btn-primary custombtn"><i class="fa fa-github "></i> Ver código</a>
+              </div>
+            </div>
+        </div>
+        <div class="col col-lg-2">
+          <div class="card" >
+            <img src="images/file_cleaner_img.png" class="img_card" >
+            <div class="card-body">
+              <h5 class="card-title">Organizador de archivos</h5>
+              <p class="card-text">Aplicacion en python que organiza la carpeta de descargas por tipos de archivo y fecha de descarga cada vez que se añade un archivo.</p>
+
+
+                 <a href="#" class="btn btn-primary custombtn"><i class="fa fa-github "></i> Ver código</a>
+            </div>
+          </div>
+      </div>
+          </div>
+        </section>
+
+
+
+
+          <section class=" section  full-width-div container-fluid contact " id="contact">
+            <div class = "row " style="max-width:1020px; margin: 0 auto">
+              <div class="col-8 col-md-6">
+                <div class="container" style="color:#fff"  >
+                 <h1 > Aqui va un formulario con los siguientes campos:<br><br></h1>
+                 <h2 >-Nombre<br><br>-Email<br><br>-Asunto<br><br>-Mensaje</h2>
+              </div>
+              </div>
+              <div class ="col-8 col-md-6" style= "padding-right:60px">
+              <h2 style="font-size: 23px;  padding-bottom:10px ;padding-top:10px;color:#fff">
+                Ponte en contacto
+              </h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
+                voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
+                voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
+                sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam.
+              </p>
+
+            </div>
+            </div>
+          </section>
+
+
+
+
+
+
+        <main>
+          <div class="container">
+
+          </div>
+        </main>
+        <!--Main Layout-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>
