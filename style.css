@@ -104,6 +104,7 @@ html {
   border-color:  #e35713db !important;
 }
 .img_card{
+    object-fit:cover;
   border-radius: 0.5rem;
   width:100%;
   height:auto;
