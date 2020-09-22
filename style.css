@@ -164,3 +164,11 @@ hr{
 .copyright{
   color:fff;
 }
+
+
+@media (min-width: 900px) {
+    html {
+        font-size: 27px;
+    }
+}
+
