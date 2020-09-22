@@ -160,7 +160,9 @@ hr{
 
 }
 
-
+.display-4{
+  font-size: 5vw;
+}
 .copyright{
   color:fff;
 }
