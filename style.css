@@ -147,7 +147,7 @@ h3 {
   color: #A8A8A8;
 }
 p{
-  font-size: 1rem;
+  font-size: 14px;
   color: #A8A8A8;
 
 }
@@ -160,9 +160,7 @@ hr{
 
 }
 
-.display-4{
-  font-size: 5vw;
-}
+
 .copyright{
   color:fff;
 }
