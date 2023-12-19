@@ -1,5 +1,4 @@
-
-
+.dataframe {margin-left: 20px; margin-right: 20px;}
 
 .customnav:hover, .social li a:hover {
   color: #e35713db !important;
@@ -36,14 +35,14 @@
 
       font-family: "Times", serif;
       overflow:hidden;
-
-
-
-
-
-
-
 }
+
+table tbody tr {
+  height: 30px;
+  
+}
+td {
+max-width: 210px;}
 
 .card{
   text-align: center
