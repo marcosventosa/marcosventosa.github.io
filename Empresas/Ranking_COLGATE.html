@@ -35,6 +35,9 @@
 
 </div>
   
+  <div class = "row justify-content-md-center" style=" margin: 50px ;margin-left:50px;margin-right:50px;">
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar persona..." title="Type in a name">
+  </div>
   
   
 <div class = "row justify-content-md-center" style=" margin: 0 auto ;margin-left:50px;margin-right:50px;">
@@ -47,7 +50,7 @@
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">Pos.</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">Nombre</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">Tiempo</th>
-      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">mins/km</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">min/km</th>
     </tr>
   </thead>
   <tbody>
@@ -55,25 +58,25 @@
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">1</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Lola García-Conde</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:52:17</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.228</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:13</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">2</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Julia Hernandez</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:58:20</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.833</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:50</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">3</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Mathilde Dubois</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:58:59</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.898</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:53</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Isabel Martínez Martínez</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:58:59</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.898</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:53</td>
     </tr>
   </tbody>
 </table></p> 
@@ -87,7 +90,7 @@
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Pos.</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Nombre</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Tiempo</th>
-      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">mins/km</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">min/km</th>
     </tr>
   </thead>
   <tbody>
@@ -95,25 +98,25 @@
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">1</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Jose Manuel Martinez Catala</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:43:38</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4.363</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">04:21</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">2</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Pablo Soto Perez</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:46:07</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4.612</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">04:36</td>
     </tr>
     <tr>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">3</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Juan Manuel Bayo González</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:46:27</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4.645</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">04:38</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Giuseppe Omar Laruccia</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:58:14</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.823</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:49</td>
     </tr>
   </tbody>
 </table></p> 
@@ -127,7 +130,7 @@
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">Pos.</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">Nombre</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">Tiempo</th>
-      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">mins/km</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #823535;text-align: left;border-bottom: 2px solid #823535;padding: 0px 20px 0px 0px;width: auto">min/km</th>
     </tr>
   </thead>
   <tbody>
@@ -135,91 +138,91 @@
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">1</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Carlota Escribano</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:34:04</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.241</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:14</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">2</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Raquel Castillo González</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:41:01</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">6.31</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">06:18</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">3</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">María Álvarez</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:43:48</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">6.738</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">06:44</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Inés Reinoso Muñoz</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:45:27</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">6.992</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">06:59</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Agostina Raviele</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:45:49</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.049</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:02</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">6</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Andreina Rangel Celis</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:47:17</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.274</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:16</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Adriana Pérez Vivas</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:50:40</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.795</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:47</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">8</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">María Aranda</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:51:43</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.956</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:57</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">9</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Vanesa Puerto</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:51:46</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.964</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:57</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">10</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Maria Dominguez</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:51:52</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.979</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:58</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">11</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Begoña Alonso</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:55:36</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">8.554</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">08:33</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">12</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Marta Carvajal Gomez</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:56:42</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">8.723</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">08:43</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">13</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Alicia Sánchez Francés</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:58:20</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">8.974</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">08:58</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">14</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Inés Oliveros Torres</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:58:20</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">8.974</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">08:58</td>
     </tr>
     <tr>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">15</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Veronica Astorga</td>
       <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">01:11:02</td>
-      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">10.928</td>
+      <td style = "background-color: #efdada;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">10:55</td>
     </tr>
   </tbody>
 </table></p> 
@@ -233,7 +236,7 @@
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Pos.</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Nombre</th>
       <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">Tiempo</th>
-      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">mins/km</th>
+      <th style = "background-color: #FFFFFF;font-family: Century Gothic, sans-serif;font-size: 14px;color: #305496;text-align: left;border-bottom: 2px solid #305496;padding: 0px 20px 0px 0px;width: auto">min/km</th>
     </tr>
   </thead>
   <tbody>
@@ -241,43 +244,43 @@
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">1</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Manuel Sánchez Francés</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:29:50</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4.59</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">04:35</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">2</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Enrique Tancredi</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:37:37</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5.787</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">05:47</td>
     </tr>
     <tr>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">3</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Álvaro López Medina</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:41:02</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">6.313</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">06:18</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">4</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Roberto Lobo Serrano</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:46:29</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.151</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:09</td>
     </tr>
     <tr>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">5</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Santiago de la Rosa Villalba</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:49:12</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.569</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:34</td>
     </tr>
     <tr>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">6</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Fernando Busato</td>
       <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">00:51:33</td>
-      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7.931</td>
+      <td style = "background-color: white; color: black;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">07:55</td>
     </tr>
     <tr>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">7</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">Luis Blanco Calvo</td>
       <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">01:00:09</td>
-      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">9.254</td>
+      <td style = "background-color: #D9E1F2;font-family: Century Gothic, sans-serif;font-size: 14px;text-align: left;padding: 0px 20px 0px 0px;width: auto">09:15</td>
     </tr>
   </tbody>
 </table></p> 
@@ -286,6 +289,30 @@
 </div>
 
 </div>
+
+<script>
+function myFunction() {
+  var input, filter, tables, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  tables = document.getElementsByClassName("dataframe");
+  for (var j = 0; j < tables.length; j++) {
+    var tr = tables[j].getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      var td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          tr[i].style.display = "";
+        } else {
+          tr[i].style.display = "none";
+        }
+      }
+    }
+  }
+}
+</script>
+
 
 </body>
 </html>
